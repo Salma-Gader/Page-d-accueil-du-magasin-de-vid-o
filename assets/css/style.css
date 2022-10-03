@@ -1,0 +1,42 @@
+header nav .itemnav {
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  header {
+    background-color: blanchedalmond;
+  }
+  .continar{
+    display: flex;
+    justify-content: space-between;
+  } 
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: aliceblue;
+    background: black;
+  }
+  section div.product1 {
+    width: 20%;
+    height: fit-content;
+    border: 3px solid rgb(0, 0, 0);
+    
+  }
+  .product1 img{
+    width:100%;
+  }
+  
+  section div .price1{
+    color: gray;
+  }
+  section div .price3{
+    color: green;
+  }
+  section .continar ul{
+    display: flex;
+ }
+ 
