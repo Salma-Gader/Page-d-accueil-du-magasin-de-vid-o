@@ -1,42 +1,78 @@
-header nav .itemnav {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+section{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
     display: flex;
-  }
-  
-  a{
-    text-decoration: none;
-  }
-  header {
-    background-color: blanchedalmond;
-  }
-  .continar{
-    display: flex;
-    justify-content: space-between;
-  } 
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  a:hover{
-    color: aliceblue;
-    background: black;
-  }
-  section div.product1 {
-    width: 20%;
-    height: fit-content;
-    border: 3px solid rgb(0, 0, 0);
+    align-items: center;
+    background-color: beige;
     
-  }
-  .product1 img{
-    width:100%;
-  }
+   
+}
+.one{
+    padding-top: 30px;
+    padding-left: 84px;
+}
+ul{
+    list-style-type:none;
+    
+    }
+
+li{
+   display: inline;
+   padding-left: 12px;
+   
   
-  section div .price1{
-    color: gray;
-  }
-  section div .price3{
-    color: green;
-  }
-  section .continar ul{
+}
+ul li a{
+    text-decoration: none;
+    background-color:beige;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.firstsection{
+    padding-top: 30px;
+}
+.secondsection{
+    
+    padding-top: 30px;
+    width: 20%;
+    height: 400px;
+    border: black 1px solid;
+    position: relative;
+    
+
+}
+.secondsection img{
+    position: absolute;
+    width: 100%;
+    height:60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+
+}
+.secondsection .info{
+    position: absolute;
+    padding-top: 280px;
+    padding-left: 30px;
+
+}
+.produits{
     display: flex;
- }
- 
+    padding-top: 30px;
+    justify-content: space-between;
+    height: 250px;
+    flex-wrap: wrap;
+}
